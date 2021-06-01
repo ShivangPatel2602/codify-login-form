@@ -1,0 +1,33 @@
+body {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
+h5 {
+    display: inline;
+    font-size: 30px;
+    padding: 0 40px 0 40px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar-brand {
+    font-size: 35px;
+}
+
+.nav-item {
+    font-size: 23px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contact-body-heading {
+    margin: 40px 0 30px 0;
+}
+
+.contact-icon {
+    padding: 10px 0 10px 0;
+}
