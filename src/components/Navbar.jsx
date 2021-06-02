@@ -18,6 +18,8 @@ function Navbar() {
 
                         <NavList text="Login" />
                         <NavList text="Register" />
+                        <NavList text="Survey Form" />
+                        <NavList text="Pricing" />
                         <NavList text="Contact Us" />
                         <NavList text="About Us" />
 
