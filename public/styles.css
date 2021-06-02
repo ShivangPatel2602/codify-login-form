@@ -1,5 +1,4 @@
 body {
-    /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Indie Flower', cursive;
     text-align: center;
 }
@@ -30,4 +29,18 @@ h5 {
 
 .contact-icon {
     padding: 10px 0 10px 0;
+}
+
+.about-text {
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 10px 20px 10px;
+    text-align: left;
+}
+
+.about-text h1 {
+    font-weight: bolder;
+}
+
+.about-main-body {
+    padding: 14px 10px 14px 10px;
 }

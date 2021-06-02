@@ -3,8 +3,8 @@ import React from "react";
 function NavList(props) {
     return (
         <div>
-            <li class="nav-item">
-                <a class="nav-link" href="#">{props.text}</a>
+            <li className="nav-item">
+                <a className="nav-link" href="#">{props.text}</a>
             </li>
         </div>
     )
