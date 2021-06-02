@@ -9,6 +9,14 @@ h5 {
     padding: 0 40px 0 40px;
 }
 
+input {
+    border-color: #343f56;
+    border-radius: 10px;
+    height: 50px;
+    margin: 10px 0 10px 0;
+    width: 300px;
+}
+
 .container-fluid {
     padding: 0;
 }
@@ -43,4 +51,14 @@ h5 {
 
 .about-main-body {
     padding: 14px 10px 14px 10px;
+}
+
+.login-heading {
+    margin: 20px 0 20px 0;
+}
+
+.btn-login {
+    height: 50px;
+    margin: 0 20px 0 20px;
+    width: 170px;
 }

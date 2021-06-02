@@ -8,14 +8,14 @@ function ContactBody() {
             <div>
                 <h1 className="contact-body-heading">WE ARE ALSO ON</h1>
 
-                <IconButton classIcon="fa fa-instagram" text=" Instagram" />
-                <IconButton classIcon="fa fa-facebook" text=" Facebook" />
-                <IconButton classIcon="fa fa-twitter" text=" Twitter" />
-                <IconButton classIcon="fa fa-linkedin" text=" LinkedIn" />
+                <IconButton classButton="btn btn-dark btn-lg" classIcon="fa fa-instagram" text=" Instagram" />
+                <IconButton classButton="btn btn-dark btn-lg" classIcon="fa fa-facebook" text=" Facebook" />
+                <IconButton classButton="btn btn-dark btn-lg" classIcon="fa fa-twitter" text=" Twitter" />
+                <IconButton classButton="btn btn-dark btn-lg" classIcon="fa fa-linkedin" text=" LinkedIn" />
 
             </div>
 
-            <hr style={{width: "50%", color: "black"}} />
+            <hr style={{ width: "50%", color: "black" }} />
 
             {/* Contact Us */}
             <div>
