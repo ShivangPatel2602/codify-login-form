@@ -1,9 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-// import ContactFinal from "./components/contact/ContactFinal";
-// import AboutFinal from "./components/about/AboutFinal";
-// import Navbar from "./components/Navbar";
-// import LoginFinal from "./components/login/LoginFinal";
-import RegisterFinal from "./components/register/RegisterFinal";
+import Navbar from "./components/Navbar";
 
-ReactDOM.render(<RegisterFinal />, document.getElementById("root"));
+ReactDOM.render(<Navbar />, document.getElementById("root"));

@@ -4,7 +4,7 @@ function NavList(props) {
     return (
         <div>
             <li className="nav-item">
-                <a className="nav-link" href="#">{props.text}</a>
+                <a className="nav-link" href={props.navLink}>{props.text}</a>
             </li>
         </div>
     )
