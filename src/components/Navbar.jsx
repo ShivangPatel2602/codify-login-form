@@ -5,24 +5,33 @@ import { LinkContainer } from "react-router-bootstrap";
 const NavbarTitle = () => {
     return (
         <Navbar bg="dark" expand="lg" variant="dark">
+        
             <LinkContainer to="/">
                 <Navbar.Brand>Codify World</Navbar.Brand>
             </LinkContainer>
+
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
             <Navbar.Collapse id="basic-navbar-nav">
+
                 <Nav className="ml-auto">
+
                     <LinkContainer className="nav-text-size" to="/register">
                         <Nav.Link>Register</Nav.Link>
                     </LinkContainer>
+
                     <LinkContainer className="nav-text-size" to="/login">
                         <Nav.Link>Login</Nav.Link>
                     </LinkContainer>
+
                     <LinkContainer className="nav-text-size" to="/contact">
                         <Nav.Link>Contact Us</Nav.Link>
                     </LinkContainer>
+
                     <LinkContainer className="nav-text-size" to="/about">
                         <Nav.Link>About</Nav.Link>
                     </LinkContainer>
+
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
