@@ -32,6 +32,10 @@ const NavbarTitle = () => {
                         <Nav.Link>About</Nav.Link>
                     </LinkContainer>
 
+                    <LinkContainer className="nav-text-size" to="/survey">
+                        <Nav.Link>Survey</Nav.Link>
+                    </LinkContainer>
+
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

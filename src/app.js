@@ -5,6 +5,7 @@ import RegisterFinal from "./components/register/RegisterFinal";
 import LoginFinal from "./components/login/LoginFinal";
 import ContactFinal from "./components/contact/ContactFinal";
 import AboutFinal from "./components/about/AboutFinal";
+import SurveyFinal from "./components/surveyform/SurveyFinal";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                     <Route path="/login" component={LoginFinal} />
                     <Route path="/contact" component={ContactFinal} />
                     <Route path="/about" component={AboutFinal} />
+                    <Route path="/survey" component={SurveyFinal} />
                 </Switch>
             </Router>
         </React.StrictMode>
