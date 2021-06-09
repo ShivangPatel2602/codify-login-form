@@ -1,0 +1,14 @@
+1. Machine Learning
+2. Web Development
+3. Android Development
+4. Deep Learning
+5. AI
+6. OS
+7. Languages: C, C++, C#, Python, Java, Javascript, Kotlin, Dart, Objective C, Swift
+8. Data Structures 
+9. Algorithms
+10. Blockchain Development
+11. DevOps Tools
+12. Cloud Computing 
+13. iOS App Development
+14. Neural Networks

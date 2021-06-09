@@ -1,16 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
 
 function Survey1() {
+
+    const [isClicked, setClick] = useState(false);
+
     return (
         <div>
-
-            <h1 className="survey-heading">SURVEY FORM</h1>
-
             <form>
 
-                <h3>
+                <h2>
                     1. Are you studying at a college/university?
-                </h3>
+                </h2>
 
                 <input type="radio" value="yes" />
                 <label for="yes">Yes</label>
