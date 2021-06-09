@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
+import NavLinkContainer from "./NavLinkContainer";
 
 const NavbarTitle = () => {
     return (
@@ -16,30 +17,12 @@ const NavbarTitle = () => {
 
                 <Nav className="ml-auto">
 
-                    <LinkContainer className="nav-text-size" to="/register">
-                        <Nav.Link>Register</Nav.Link>
-                    </LinkContainer>
-
-                    <LinkContainer className="nav-text-size" to="/login">
-                        <Nav.Link>Login</Nav.Link>
-                    </LinkContainer>
-
-                    <LinkContainer className="nav-text-size" to="/survey">
-                        <Nav.Link>Survey</Nav.Link>
-                    </LinkContainer>
-
-                    <LinkContainer className="nav-text-size" to="/plans">
-                        <Nav.Link>Plans</Nav.Link>
-                    </LinkContainer>
-
-                    <LinkContainer className="nav-text-size" to="/about">
-                        <Nav.Link>About</Nav.Link>
-                    </LinkContainer>
-
-                    <LinkContainer className="nav-text-size" to="/contact">
-                        <Nav.Link>Contact Us</Nav.Link>
-                    </LinkContainer>
-
+                    <NavLinkContainer toLink="/register" text="Register" />
+                    <NavLinkContainer toLink="/login" text="Login" />
+                    <NavLinkContainer toLink="/survey" text="Survey" />
+                    <NavLinkContainer toLink="/plans" text="Plans" />
+                    <NavLinkContainer toLink="/about" text="About" />
+                    <NavLinkContainer toLink="/contact" text="Contact" />
 
                 </Nav>
             </Navbar.Collapse>

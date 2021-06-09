@@ -1,7 +1,7 @@
 import React from "react";
 import Login1 from "./Login1";
 import Login2 from "./Login2";
-import FooterText from "../footer";
+import FooterText from "../Top&Bottom/Footer";
 
 function LoginFinal() {
     return (

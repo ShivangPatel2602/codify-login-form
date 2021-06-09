@@ -1,9 +1,13 @@
 import React from "react";
-import Plans2 from "./Plans2";
+import PlanBody from "./PlanBody";
+import FooterText from "../Top&Bottom/Footer";
 
 function PlansFinal() {
     return (
-        <Plans2 />
+        <div>
+            <PlanBody />
+            <FooterText />
+        </div> 
     )
 }
 
