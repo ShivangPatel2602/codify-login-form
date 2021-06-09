@@ -24,17 +24,22 @@ const NavbarTitle = () => {
                         <Nav.Link>Login</Nav.Link>
                     </LinkContainer>
 
-                    <LinkContainer className="nav-text-size" to="/contact">
-                        <Nav.Link>Contact Us</Nav.Link>
+                    <LinkContainer className="nav-text-size" to="/survey">
+                        <Nav.Link>Survey</Nav.Link>
+                    </LinkContainer>
+
+                    <LinkContainer className="nav-text-size" to="/plans">
+                        <Nav.Link>Plans</Nav.Link>
                     </LinkContainer>
 
                     <LinkContainer className="nav-text-size" to="/about">
                         <Nav.Link>About</Nav.Link>
                     </LinkContainer>
 
-                    <LinkContainer className="nav-text-size" to="/survey">
-                        <Nav.Link>Survey</Nav.Link>
+                    <LinkContainer className="nav-text-size" to="/contact">
+                        <Nav.Link>Contact Us</Nav.Link>
                     </LinkContainer>
+
 
                 </Nav>
             </Navbar.Collapse>
