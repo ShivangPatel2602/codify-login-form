@@ -5,7 +5,7 @@ function Survey1() {
     const [isClicked, setClick] = useState(false);
 
     return (
-        <div>
+        <div className="survey1-input">
             <form>
 
                 <h2>

@@ -1,6 +1,7 @@
 import React from "react";
 import Survey1 from "./Survey1";
 import Survey2 from "./Survey2";
+import FooterText from "../Top&Bottom/Footer";
 
 function SurveyFinal() {
     return (
@@ -10,6 +11,7 @@ function SurveyFinal() {
                 <Survey1 />
                 <Survey2 />
             </div>
+            <FooterText />
         </div>
         
     )
