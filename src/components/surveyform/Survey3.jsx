@@ -5,13 +5,15 @@ function Survey2() {
     return (
         <div>
             <h2>
-                2. Which languages are you interested in?
+                2. Which fields in Computer Science are you interested in?
             </h2>
             <div class="form-check list-inline list-group-horizontal btn-group" role="group" data-toggle="buttons">
-                <LabelInput text="C" />
-                <LabelInput text="C++" />
-                <LabelInput text="C#" />
-                <LabelInput text="Objective C" />
+                <LabelInput text="Machine Learning" />
+                <LabelInput text="Web Development" />
+                <LabelInput text="Android Development" />
+                <LabelInput text="iOS Development" />
+                <LabelInput text="Python" />
+                <LabelInput text="Python" />
                 <LabelInput text="Python" />
             </div>
             <br />
@@ -21,6 +23,8 @@ function Survey2() {
                 <LabelInput text="Swift" />
                 <LabelInput text="Kotlin" />
                 <LabelInput text="Dart" />
+                <LabelInput text="Python" />
+                <LabelInput text="Python" />
             </div>
         </div>
     )
