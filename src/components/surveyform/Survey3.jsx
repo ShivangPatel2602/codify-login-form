@@ -14,21 +14,17 @@ function Survey2() {
                 text2="Web Development"
                 text3="Android Development"
                 text4="iOS Development"
-                text5="Python"
-                text6="Python"
-                text7="Python"
+                text5="Deep Learning"
             />
 
             <br />
-            
+
             <LabelInputText
-                text1="JavaScript"
-                text2="Java"
-                text3="Swift"
-                text4="Kotlin"
-                text5="Dart"
-                text6="Python"
-                text7="Python"
+                text1="Competitive Programming"
+                text2="Computer Networking"
+                text3="Neural Networks"
+                text4="Artificial Intelligence"
+                text5="Operating Systems"
             />
         </div>
     )

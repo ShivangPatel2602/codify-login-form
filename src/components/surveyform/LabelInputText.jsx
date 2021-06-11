@@ -9,8 +9,6 @@ function LabelInputText(props) {
                 <LabelInput text={props.text3} />
                 <LabelInput text={props.text4} />
                 <LabelInput text={props.text5} />
-                <LabelInput text={props.text6} />
-                <LabelInput text={props.text7} />
         </div>
     )
 }
