@@ -1,31 +1,35 @@
 import React from "react";
-import LabelInput from "./LabelInput";
+import LabelInputText from "./LabelInputText";
 
 function Survey2() {
     return (
         <div>
+
             <h2>
                 2. Which fields in Computer Science are you interested in?
             </h2>
-            <div class="form-check list-inline list-group-horizontal btn-group" role="group" data-toggle="buttons">
-                <LabelInput text="Machine Learning" />
-                <LabelInput text="Web Development" />
-                <LabelInput text="Android Development" />
-                <LabelInput text="iOS Development" />
-                <LabelInput text="Python" />
-                <LabelInput text="Python" />
-                <LabelInput text="Python" />
-            </div>
+
+            <LabelInputText
+                text1="Machine Learning"
+                text2="Web Development"
+                text3="Android Development"
+                text4="iOS Development"
+                text5="Python"
+                text6="Python"
+                text7="Python"
+            />
+
             <br />
-            <div class="form-check list-inline list-group-horizontal btn-group" role="group" data-toggle="buttons">
-                <LabelInput text="JavaScript" />
-                <LabelInput text="Java" />
-                <LabelInput text="Swift" />
-                <LabelInput text="Kotlin" />
-                <LabelInput text="Dart" />
-                <LabelInput text="Python" />
-                <LabelInput text="Python" />
-            </div>
+            
+            <LabelInputText
+                text1="JavaScript"
+                text2="Java"
+                text3="Swift"
+                text4="Kotlin"
+                text5="Dart"
+                text6="Python"
+                text7="Python"
+            />
         </div>
     )
 }
