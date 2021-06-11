@@ -62,18 +62,8 @@ h1 {
     padding: 10px 0 10px 0;
 }
 
-.about-text {
-    font-family: 'Open Sans', sans-serif;
-    padding: 20px 10px 20px 10px;
-    text-align: left;
-}
-
-.about-text h1 {
-    font-weight: bolder;
-}
-
-.about-main-body {
-    padding: 14px 10px 14px 10px;
+.about-heading {
+    font-family: 'Baloo Tammudu 2', cursive;
 }
 
 .login-heading,
@@ -164,10 +154,10 @@ section.pricing {
 }
 
 /*Styling for the survey page*/
-.list-group-horizontal .list-group-item {
+/* .list-group-horizontal .list-group-item {
     display: inline-block; 
 }
-  
+   */
 .list-group-horizontal .list-group-item {
     margin-bottom: 0;
     margin-left:-4px;

@@ -1,12 +1,10 @@
 import React from "react";
-import AboutBody from "./AboutBody";
-import FooterText from "../Top&Bottom/Footer";
+import About1 from "./About1";
 
 function AboutFinal() {
     return (
         <div>
-            <AboutBody />
-            <FooterText />
+            <About1 />
         </div>
     )
 }
