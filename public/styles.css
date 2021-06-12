@@ -66,6 +66,16 @@ h1 {
     font-family: 'Baloo Tammudu 2', cursive;
 }
 
+.about-text-para {
+    font-size: 20px;
+    padding: 0 50px 6px 50px;
+    text-align: left;
+}
+
+.btn {
+    margin: 5px 0 20px 0;
+}
+
 .login-heading,
 .survey-heading {
     margin: 20px 0 20px 0;
