@@ -62,7 +62,7 @@ h1 {
     padding: 10px 0 10px 0;
 }
 
-.about-heading {
+.about-heading, .intro-heading {
     font-family: 'Baloo Tammudu 2', cursive;
 }
 

@@ -1,12 +1,13 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+// import { Link } from 'react-router-dom';
 import { LinkContainer } from "react-router-bootstrap";
 import NavLinkContainer from "./NavLinkContainer";
 
+//Setting up the Navigation Bar for the website
 const NavbarTitle = () => {
     return (
         <Navbar bg="dark" expand="lg" variant="dark">
-        
             <LinkContainer to="/">
                 <Navbar.Brand>Codify World</Navbar.Brand>
             </LinkContainer>

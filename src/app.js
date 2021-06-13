@@ -7,13 +7,17 @@ import ContactFinal from "./components/contact/ContactFinal";
 import AboutFinal from "./components/about/AboutFinal";
 import SurveyFinal from "./components/surveyform/SurveyFinal";
 import PlansFinal from "./components/plans/Plansfinal";
+import IntroFinal from "./components/intro/IntroFinal";
 
 function App() {
     return (
         <React.StrictMode>
             <Router>
+                {/* The navigation bar appears on the top of every page that is rendered */}
                 <NavbarTitle />
-                <Switch>
+                {/* <Route path="/" component={IntroFinal} /> */}
+                <Switch>    
+                    <Route exact path="/" component={IntroFinal} />
                     <Route path="/register" component={RegisterFinal} />
                     <Route path="/login" component={LoginFinal} />
                     <Route path="/contact" component={ContactFinal} />

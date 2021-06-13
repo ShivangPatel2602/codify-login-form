@@ -1,10 +1,9 @@
 import React from "react";
-// import {Nav} from "react-bootstrap";
-// import { LinkContainer } from "react-router-bootstrap";
+import { Link } from 'react-router-dom';
 
 function AboutButton() {
     return (
-        <button className="btn btn-dark btn-lg">Know More</button>
+        <Link className="btn btn-dark btn-lg" to="/">Know More</Link>
     )
 }
 
