@@ -1,23 +1,24 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
+import CarouselTemplate from "./CarouselTemplate";
 
 function Intro1() {
     return (
         <div>
             <Carousel className="carousel-area">
 
-                <Carousel.Item className="carousel-design" interval={1000}>
-                    <h2 className="carousel-1-heading">HI CODERS 🙋‍♂️</h2>
-                    <h2 className="carousel-1-heading">Welcome</h2>
-                    <h2 className="carousel-1-heading">to the</h2>
-                    <h2 className="carousel-1-heading">World of Codes!!!</h2> 
+                <Carousel.Item className="carousel-design" interval={1500}>
+                    <CarouselTemplate text="HI CODERS 🙋‍♂️" />
+                    <CarouselTemplate text="Welcome" />
+                    <CarouselTemplate text="to the" />
+                    <CarouselTemplate text="World of Codes!!!" />
                 </Carousel.Item>
 
-                <Carousel.Item className="carousel-design" interval={1000}>
-                    <h2 className="carousel-2-heading">Vast Variety</h2>    
-                    <h2 className="carousel-2-heading">of resources</h2>    
-                    <h2 className="carousel-2-heading">to satisfy</h2>    
-                    <h2 className="carousel-2-heading">your hunger for knowledge.</h2>
+                <Carousel.Item className="carousel-design" interval={1500}>
+                    <CarouselTemplate text="Vast Variety" />
+                    <CarouselTemplate text="of resources" />
+                    <CarouselTemplate text="to satisfy" />
+                    <CarouselTemplate text="your hunger for knowledge." />
 
                     <p className="carousel-2-p">Coz: Knowledge know no bounds.</p>
                 </Carousel.Item>
