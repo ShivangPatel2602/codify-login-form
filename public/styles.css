@@ -18,6 +18,10 @@ label {
     margin-right: 20px;
 }
 
+footer {
+    margin-bottom: 0;
+}
+
 .survey-content {
     margin-left: 20px;
     text-align: left;
@@ -195,8 +199,18 @@ section.pricing {
 
 .carousel-design {
     background-color: #343f56;
-    height: 500px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    border-bottom: 0;
+    height: 650px;
+}
+
+.carousel-1-heading, .carousel-2-heading {
+    color: white;
+    font-size: 70px;
+    margin: 40px 0 40px 0;
+    text-align: center;   
+}
+
+.carousel-2-p {
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
 }
